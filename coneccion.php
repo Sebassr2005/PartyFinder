@@ -72,7 +72,7 @@ b,h3{
 <?php
 
 $email = $_POST['email'];
-$password = $_POST['password'];
+$password = md5($_POST['password']);
 $username = $_POST['username'];
 
 $user = "root";
