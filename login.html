@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilos.css">
-
-    
-    <title>Document</title>
+    <title>Login Responsive</title>
 </head>
-
 <body>
     <div class="wrapper">
-        <div class="form-wrapper  sing-in">
+        <div class="form-wrapper sing-in">
             <form action="">
                 <h2>Login</h2>
                 <div class="input-group">
@@ -22,46 +19,44 @@
                     <input type="password" required>
                     <label for="">Password</label>
                 </div>
-
                 <div class="remember">
                     <label><input type="checkbox"> Recordarme</label>
                 </div>
-                <button type="submit"><a href="index.html" >Login</a></button>
+                <button type="submit"><a href="index.html">Login</a></button>
                 <div class="singup-link">
-                    <p>¿No tienes una cuenta? <a href="#"  class="singupbtn-link">Sign Up</a></p>
+                    <p>¿No tienes una cuenta? <a href="#" class="singupbtn-link">Sign Up</a></p>
                 </div>
             </form>
         </div>
 
-    <div class="form-wrapper  sing-up">
-        <form action="coneccion.php" name="" method="post">
-            <h2>Sign Up</h2>
-            <div class="input-group">
-                <input name="username"  type="text"  required>
-                <label for="">Username</label>
-            </div>
-            <div class="input-group">
-                <input name="email" type="email" >
-                <label for="">Email</label>
-            </div>
-            <div class="input-group">
-                <input name="password"  type="password">
-                <label for="">Password</label>
-            </div>
-
-            <div class="remember">
-                <label><input type="checkbox"> Acepto los terminos y condiciones </label>
-            </div>
-			
-			<tr><td><input type="submit" name="bsubmit" value="Save"></td><td><input type="reset" name="breset" value="Reset"></td></tr>
-
-
-            <div class="singup-link">
-                <p>¿Ya tienes una cuenta? <a href="#"  class="singinbtn-link">Sign In</a></p>
-            </div>
-        </form>
+        <div class="form-wrapper sing-up">
+            <form action="coneccion.php" name="" method="post">
+                <h2>Sign Up</h2>
+                <div class="input-group">
+                    <input name="username" type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-group">
+                    <input name="email" type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input name="password" type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Acepto los términos y condiciones</label>
+                </div>
+                <div class="button-group">
+                    <button type="submit" name="bsubmit">Save</button>
+                    <button type="reset" name="breset">Reset</button>
+                </div>
+                <div class="singup-link">
+                    <p>¿Ya tienes una cuenta? <a href="#" class="singinbtn-link">Sign In</a></p>
+                </div>
+            </form>
+        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
