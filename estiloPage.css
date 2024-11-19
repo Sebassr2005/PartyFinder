@@ -1,0 +1,60 @@
+
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+.navbar {
+    background-color: #2d2d2d !important;
+}
+.card {
+    background-color: #2d2d2d;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    transform: translateY(50px);
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.footer {
+    background-color: #2d2d2d;
+}
+.search-input {
+    background-color: #404040;
+    border: none;
+    color: #ffffff;
+}
+.btn-primary {
+    background-color: #4a9eff;
+    border-color: #4a9eff;
+}
+.btn-primary:hover {
+    background-color: #357abd;
+    border-color: #357abd;
+}
+
+.navbar-brand {
+    background: linear-gradient(90deg, #4a9eff, #ff4ae8); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mb-4 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0099ff;
+    position: relative;
+}
