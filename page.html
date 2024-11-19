@@ -4,49 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Party Finder - Tu guía nocturna</title>
+    <link rel="stylesheet" href="estiloPage.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
     <style>
         body {
-            background-color: #1a1a1a;
-            color: #ffffff;
-        }
-        .navbar {
-            background-color: #2d2d2d !important;
-        }
-        .card {
-            background-color: #2d2d2d;
-            transition: transform 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        .hero-section {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 500px;
-        }
-        .footer {
-            background-color: #2d2d2d;
-        }
-        .search-input {
-            background-color: #404040;
-            border: none;
-            color: #ffffff;
-        }
-        .btn-primary {
-            background-color: #4a9eff;
-            border-color: #4a9eff;
-        }
-        .btn-primary:hover {
-            background-color: #357abd;
-            border-color: #357abd;
-        }
+    background-color: #1a1a1a;
+    color: #ffffff;
+    
+}
+
+.navbar {
+    background-color: #2d2d2d !important;
+}
+.card {
+    background-color: #2d2d2d;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    transform: translateY(50px);
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.footer {
+    background-color: #2d2d2d;
+}
+.search-input {
+    background-color: #404040;
+    border: none;
+    color: #ffffff;
+}
+.btn-primary {
+    background-color: #4a9eff;
+    border-color: #4a9eff;
+}
+.btn-primary:hover {
+    background-color: #357abd;
+    border-color: #357abd;
+}
+
+.navbar-brand {
+    background: linear-gradient(90deg, #4a9eff, #ff4ae8); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mb-4 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0099ff;
+    position: relative;
+
+    
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #4a9eff;
+    border-radius: 10px;
+    background-color: rgba(74, 158, 255, 0.2);
+}
+
+
     </style>
 </head>
+
 <body>
     <!-- Navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
@@ -198,5 +235,6 @@
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
